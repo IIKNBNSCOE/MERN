@@ -1,0 +1,70 @@
+#main
+{
+    border: 2px solid;
+    color:floralwhite;
+    background: skyblue;
+    width: 55%;
+    
+}
+#name
+{
+    float:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:xx-large;
+}
+#maddress
+{
+    margin-left:300px;
+}
+#address
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+}
+#phone
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+}
+#address+div
+{
+    font-size:small;    
+}
+#phone+div
+{
+    font-size:small;
+}
+.subtitle
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:larger;
+}
+.subtitle:before
+{
+    content: " ";
+    display: block;
+    border-bottom: 5px dotted red;
+    width:55%;
+}
+.subtitle:hover
+{
+    color:royalblue;
+}
+p{
+    width:55%;
+    font-size:medium;
+}
+ul li{
+    width:55%;
+    }
+strong{
+    font-size:large;
+    font-style: italic;
+}
+strong:hover{
+    color:chocolate;
+}

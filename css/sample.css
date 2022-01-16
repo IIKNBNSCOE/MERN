@@ -1,0 +1,28 @@
+#d1{
+    background-color: red;
+    color: yellowgreen;
+    width: 200;
+    padding: 20px;
+    margin-left:10px;
+    border:5px solid rgb(68, 0, 255);
+}
+ul li:nth-child(2)
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blueviolet;
+}
+/* a:link
+{
+    color:crimson;
+}
+a:visited
+{
+    color:green;
+}*/
+a:hover
+{
+    color:hotpink;
+} 
+ul+a{
+    color:yellow;
+}
