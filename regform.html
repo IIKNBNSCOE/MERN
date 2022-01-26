@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .regform
+        {
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border:3px solid red;
+            border-radius: 7px;
+            
+        }
+        .form1
+        {
+            background:gainsboro;
+        }
+        .reglabel
+        {
+            padding:10px;
+            margin:auto;
+            font-weight: bold;
+            font-size: x-large;
+            text-align: center;
+            color: cornsilk;
+            border-radius: 2px;
+            width: auto;
+            height: auto;
+            background-color: blue;
+
+        }
+        input[type=text]{
+            width:100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .but
+        {
+            position: absolute;
+            left: 50%;
+            top: 95%;
+            transform: translate(-50%, -95%); 
+        }
+        button{
+              font-size: medium;
+              background-color: greenyellow;
+              
+        }
+        label:hover
+        {
+            color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="regform">
+        <div class="reglabel">
+                    Registration Form
+         </div>
+         <div class="form1">
+             <form action="" class="rform">
+             <label for="name">Name</label>
+             <input type="text" name="name" class="pname" placeholder="Name">
+             <label for="mobile">Mobile</label>
+             <input type="text" name="mobile" class="pmobile" placeholder="Mobile">
+             <label for="email" >Email</label>
+             <input type="text" name="email" class="pemail" placeholder="Email">
+             <div class="but">
+             <button>Submit</button>
+             <button>Cancel</button>
+            </div>
+             </form>
+
+         </div>
+    </div>
+    
+</body>
+</html>
