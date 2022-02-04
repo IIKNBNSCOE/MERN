@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .regform
+        body{
+            background: linear-gradient(135deg,#71b7e6,#9b59b6);
+        }
+        #regform
         {
-            width: 300px;
+            width: 500px;
             height: 200px;
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            border:3px solid red;
-            border-radius: 7px;
+            background: #fff;
+            border:3px solid #fff;
+            border-radius: 8px;
+            font-family:'Poppins',sans-serif;
+            
             
         }
         .form1
@@ -24,23 +30,28 @@
         }
         .reglabel
         {
+            display:inline-block;
             padding:10px;
             margin:auto;
-            font-weight: bold;
-            font-size: x-large;
+            font-weight: 500;
+            font-size: 25px;
             text-align: center;
-            color: cornsilk;
             border-radius: 2px;
-            width: auto;
+            width: 96%;
             height: auto;
-            background-color: blue;
+            border-bottom:5px solid #3399ff;
+            /*background-color:rgba(0, 0, 0, 0.534); */
 
+        }
+        label{
+            font-family:'Poppins',sans-serif;
         }
         input[type=text]{
             width:100%;
             border: 1px solid #ccc;
             border-radius: 4px;
             box-sizing: border-box;
+            font-family:'Poppins',sans-serif;
         }
         .but
         {
@@ -50,8 +61,12 @@
             transform: translate(-50%, -95%); 
         }
         button{
-              font-size: medium;
-              background-color: greenyellow;
+              font-size: 15px;
+              border:3px solid #fff;
+              color:#ccc;
+              background: linear-gradient(135deg,#71b7e6,#9b59b6);
+              width:70px;
+              height: 25px;
               
         }
         label:hover
@@ -61,7 +76,7 @@
     </style>
 </head>
 <body>
-    <div class="regform">
+    <div id="regform">
         <div class="reglabel">
                     Registration Form
          </div>
@@ -83,4 +98,15 @@
     </div>
     
 </body>
+<script>
+    id = setInterval(frame, 5);
+
+function frame() {
+  
+    setInterval(function () {document.getElementById("regform").style.backgroundColor="lightblue";}, 3000);
+    
+    
+}
+
+    </script>
 </html>
